@@ -1,0 +1,6 @@
+.border:hover {
+  box-shadow: 0 0.5rem 1rem rgba(13, 110, 253, 0.15);
+  border-color: #0d6efd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
