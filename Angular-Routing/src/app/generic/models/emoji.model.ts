@@ -61,3 +61,29 @@ export const FRUITS : Emoji[] = [
     { name: 'ne7la', emoji: '🐝' },
     { name: 'koksinil', emoji: '🐞' }
   ];
+
+  export const FOOD: Emoji[] = [
+  { name: 'khobz', emoji: '🍞' },
+  { name: 'kasboura', emoji: '🧀' },
+  { name: 'bayD', emoji: '🥚' },
+  { name: '7out', emoji: '🐟' },
+  { name: 'djaj', emoji: '🍗' },
+  { name: 'pizza', emoji: '🍕' },
+  { name: 'ma3joun', emoji: '🥐' },
+  { name: 'hamburger', emoji: '🍔' },
+  { name: 't3am', emoji: '🍚' },
+  { name: 'salata', emoji: '🥗' },
+];
+
+export const VEHICLES: Emoji[] = [
+  { name: 'sayara', emoji: '🚗' },
+  { name: 'taksi', emoji: '🚕' },
+  { name: 'tramway', emoji: '🚋' },
+  { name: 'biss', emoji: '🚌' },
+  { name: 'trolley', emoji: '🚎' },
+  { name: 'camion', emoji: '🚚' },
+  { name: 'motor', emoji: '🏍️' },
+  { name: 'bicycletta', emoji: '🚲' },
+  { name: 'tren', emoji: '🚆' },
+  { name: 'aeroporto', emoji: '✈️' },
+];

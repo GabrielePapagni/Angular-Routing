@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { ANIMALS, FRUITS, Emoji } from './models/emoji.model';
+import { ANIMALS, FRUITS, FOOD, VEHICLES, Emoji } from './models/emoji.model';
 
 @Component({
   selector: 'app-generic',
@@ -25,6 +25,7 @@ export class GenericComponent implements OnInit {
 
     if (uri_param == 'fruits') this.genVect = FRUITS;
     if (uri_param == 'animals') this.genVect = ANIMALS;
-
+    if (uri_param == 'food') this.genVect = FOOD;
+    if (uri_param == 'vehicles') this.genVect = VEHICLES;
   }
 }
